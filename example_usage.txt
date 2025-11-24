@@ -1,0 +1,5 @@
+Example usage:
+1. Put your dataset CSV at data/electricity.csv with datetime index and a 'load' column.
+2. Create a python environment and install requirements: pip install -r requirements.txt
+3. Train model: python train.py --input_len 48 --output_len 24 --epochs 20
+4. Check checkpoint.pth and attention_weights.npy after training.
